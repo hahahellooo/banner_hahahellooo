@@ -13,15 +13,15 @@
 ```
 
 ## **Install**
-
+```
 $ pip install banner_hahahellooo
-
+```
 ## **Usage**
 
 # type:
-
+```
 $ show-banner
-
+```
 ## **Reference**
 
 https://github.com/pwaller/pyfiglet
