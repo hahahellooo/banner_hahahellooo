@@ -1,15 +1,27 @@
 [project]
 name = "banner_hahahellooo"
-version = "0.1.0"
-description = "Default template for PDM package"
+version = "0.2.5"
+description = "Banner Output Program"
 authors = [
     {name = "hahahellooo", email = "hahahello777@gmail.com"},
 ]
-dependencies = []
-requires-python = "==3.11.*"
+dependencies = [
+    "pyfiglet>=1.0.2",
+]
+requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 
 
 [tool.pdm]
-distribution = false
+distribution = true
+
+
+[project.scripts]
+show-banner = 'banner_hahahellooo.banner:show'
+
+
+[project.urls]
+Homepage = "http://github.com/hahahellooo/banner_hahahellooo"
+Issues = "http://github.com/hahahellooo/banner_hahahellooo/issues"
+
