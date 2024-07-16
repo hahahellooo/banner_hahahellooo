@@ -33,14 +33,14 @@ use `-f` to change the font. It defaults to standard.flf.
 ```py
 from pyfiglet import Figlet
 f = Figlet(font='slant')
-print(f.renderText('text to render'))
+print(f.renderText('hahahellooo'))
 ```
 
 or
 
 ```py
 import pyfiglet
-f = pyfiglet.figlet_format("text to render", font="slant")
+f = pyfiglet.figlet_format("hahahellooo", font="slant")
 print(f)
 ```
 If you have found some new fonts that you want to use, you can use the
