@@ -20,3 +20,8 @@ distribution = true
 [project.scripts]
 show-banner = 'banner_hahahellooo.banner:show'
 
+
+[project.urls]
+Homepage = "http://github.com/hahahellooo/banner_hahahellooo"
+Issues = "http://github.com/hahahellooo/banner_hahahellooo/issues"
+
