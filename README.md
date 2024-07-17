@@ -22,6 +22,17 @@ $ pip install banner_hahahellooo
 ```
 $ show-banner
 ```
+# picture:
+```
+$ show-pic
+```
+
+# lotto
+```
+$ show-lotto 
+```
 ## **Reference**
 
 https://github.com/pwaller/pyfiglet
+
+
