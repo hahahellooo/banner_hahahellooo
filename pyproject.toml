@@ -19,7 +19,7 @@ distribution = true
 
 [project.scripts]
 show-banner = 'banner_hahahellooo.banner:show'
-show-lotto = 'hellooo_lotto.draw:lotto'
+show-lotto = 'hahahellooo_lotto.draw:lotto'
 
 [project.urls]
 Homepage = "http://github.com/hahahellooo/banner_hahahellooo"
